@@ -1,6 +1,6 @@
 # Literature Image Scraper (v1.0.0)
 
-Developed and maintained by Tianjun Liu.
+Developed and maintained by [Tianjun Liu](irene.liutj@gmail.com).
 
 ------
 
@@ -133,7 +133,7 @@ The output is saved in `./data/output`. In this `output` directory, subdirectory
 
 For uploading files larger than 100 Mb, please install [Git LFS](https://git-lfs.github.com/). See [more](https://stackoverflow.com/a/48734334/15390757).
 
-For developing models for other animals, please contact the developer.
+For developing models for other insects, please contact the developer.
 
 
 
