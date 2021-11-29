@@ -62,11 +62,19 @@ Install [Git Bash](https://git-scm.com/download/win).
 
 Install Anaconda [for Windows](https://docs.anaconda.com/anaconda/install/windows/).
 
-Open `Git Bash` and type in the command `~/anaconda3/Scripts/conda.exe init bash` to activate both `Python` and `Conda`.
+Open `Git Bash` and type in the following command 
+
+```
+~/anaconda3/Scripts/conda.exe init bash
+```
+
+ to activate both `Python` and `Conda`.
+
+- You might need to replace `anaconda3` with the your local conda version name, like `Miniconda3` (Please use the exact name and be aware of the case).
 
 #### 1.2.2. Setup an environment
 
-See 1.1.2.
+Execute the steps in 1.1.2. in `Anaconda Prompt`.
 
 
 
@@ -112,15 +120,15 @@ You will be asked to enter some input info.
    If you have scanned books in the pdf folder, each page will be analyzed and saved, and this will take long. To save time, skip these pdf files by giving a maximal page number which you think your most important documents have. The suggested number is 20.
 
 ```bash
-Enter the maximal page number: 
+python scraper.py --max_page 20
 ```
 
 2. `file_start` The default value is `1`.
 
-   You could scrape pdf files in batches and later concate the output csv files from different batches together. To avoid having the same file number, please give an initial number for the file list. For example, if you scraped 10 pdf files last time and want to have new files scraped continuously, please type 11. 
+   You could scrape PDF files in batches and later concatenate the output CSV files from different batches together. To avoid having the same file number, please give an initial number for the file list. For example, if you scraped 10 PDF files last time and want to have new files scraped continuously, please type 11. 
 
 ```bash
-Enter the start of the file number:
+python scraper.py --file_start 1
 ```
 
 ### 3.4. Output

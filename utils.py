@@ -11,13 +11,13 @@ def SetupPath(proj_dir):
     This function returns all paths that are used in this project
     and create new directories if they do not already exist.
     """
-    data_dir = proj_dir + "/data/"
-    pdf_path = data_dir + "pdfs/"
-    output_path = data_dir + "output/"
-    all_image_path = output_path + "all_image/"
-    detect_path = all_image_path + "detected/"
-    list_path = output_path + "lists/"
-    cache_path = output_path + "cache/"
+    data_dir = proj_dir + os.sep + "data" + os.sep
+    pdf_path = data_dir + "pdf" + os.sep
+    output_path = data_dir + "output" + os.sep
+    all_image_path = output_path + "all_image" + os.sep
+    detect_path = all_image_path + "detected" + os.sep
+    list_path = output_path + "lists" + os.sep
+    cache_path = output_path + "cache" + os.sep
 
     if not os.path.exists(output_path):
         os.mkdir(output_path)
