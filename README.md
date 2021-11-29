@@ -44,14 +44,14 @@ conda activate myenv
 Install dependencies for object detection:
 
 ```bash
-pip install numpy==1.19.3 pillow==7.0.0 scipy==1.4.1 h5py==2.10.0 matplotlib==3.3.2 keras-resnet==0.2.0
+pip install numpy==1.19.3 pillow==7.0.0 scipy==1.4.1 h5py==2.10.0 matplotlib==3.3.2 keras-resnet==0.2.0 pandas
 pip install tensorflow==2.4.0 keras==2.4.3 opencv-python imageai
 ```
 
 Install dependencies for PDF scraping:
 
 ```
-pip install PyMuPDF Pillow
+pip install PyMuPDF
 ```
 
 ### 1.2. Windows
