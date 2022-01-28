@@ -49,7 +49,7 @@ if __name__ == "__main__":
     cache_path = base_path + "data/output_test/cache/"
     if not os.path.exists(cache_path):
         os.mkdir(cache_path)
-    image = "./literature_image_scraper/object_detection_new/train/images/file_41_p_26_1.jpg"
+    image = "./literature_image_scraper/data/img/file_41_p_26_1.jpg"
 
     detections = DetectObjects(image, cache_path)
     for detection in detections:
