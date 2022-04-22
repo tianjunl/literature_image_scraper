@@ -3,6 +3,12 @@
 Developed and maintained by [Tianjun Liu](irene.liutj@gmail.com).
 
 ------
+## Update:
+
+22.04.2022
+The package may not run well on Windows, but I am working on it. :)
+
+------
 
 Python scripts to 
 
@@ -91,7 +97,7 @@ git clone git@github.com:tianjunl/literature_image_scraper.git
 
 
 
-## 3. Literature Scraping
+## 3. Literature Image Scraping
 
 ### 3.1. Input files
 
